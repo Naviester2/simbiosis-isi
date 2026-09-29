@@ -279,6 +279,10 @@ FR-017 se conserva para no perder el identificador histórico, pero su estado es
 | ID | Categoría y atributo | Requisito no funcional | Ámbito (Global/Local) | UR/FR relacionados | Método de comprobación | Estado |
 | --- | --- | --- | --- | --- | --- | --- |
 | NFR-07 |NFR-Q (Eficiencia; Escalabilidad; Mantenibilidad) |La plataforma mantendrá los objetivos de capacidad y rendimiento definidos para la primera versión sin intervención manual del personal de la organización.| G | -  | Prueba de carga automatizada con 100 usuarios concurrentes y 10 operaciones/s durante 30 min; comprobar mediante registros de monitorización, ausencia de intervención manual. | - |
+| NFR-01 | NFR-Q(Integridad) | En caso de fallo, el sistema no debe perder más de 24 horas de datos de salud y recetas. | G | - | - | - |
+| NFR-02 | NFR-Q(Rendimiento) | El 95 % de las operaciones de inicio de sesión, consulta de perfil, búsqueda de recetas, consulta de recetas y consulta del foro debe completarse en un máximo de 2 segundos. | G | - | - | - | 
+| NFR-03 | NFR-Q(Disponibilidad) | El sistema debe estar disponible al menos el 99,5 % en cada mes natural. | G | - | - | - |
+| NFR-04 | NFR-Q(Disponibilidad) |Tras un incidente grave, el sistema debe recuperar sus funciones principales en un máximo de 4 horas desde la declaración del incidente.| G | - | - | - |
 
 Categorías y atributos: 
 1) Requisitos de calidad (NFR-Q): Rendimiento, Usabilidad, Seguridad, Fiabilidad, Disponibilidad, Modificabilidad, Portabilidad, Eficiencia, Escalabilidad, Verificabilidad / Testabilidad, Robustez, Seguridad funcional (safety), Integridad, Reusabilidad, Instalabilidad.
