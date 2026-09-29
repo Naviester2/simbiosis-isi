@@ -268,6 +268,17 @@ enlazar a los términos de esta sección, pero no los definirá de nuevo.
 
 | Término | Definición en Proyecto Simbiosis | Fuente |
 | --- | --- | --- |
+|Registro de Usuario|	Proceso por el cual una persona dada de alta en el sistema puede acceder y utilizar las distintas funcionalidades de la plataforma.|	Sección 2.2 (Módulo 1: Gestión de usuarios)|
+|Paciente|	Usuario con Enfermedad Inflamatoria Intestinal (EII) que mantiene actualizado su historial de datos y consulta información personalizada según sus síntomas.|	Sección 2.2 (Módulo 2) y Sección 3.1 (Stakeholders)|
+|Foro Colaborativo	|Espacio de interacción comunitaria donde los usuarios registrados interactúan, comparten experiencias y colaboran entre sí.	|Sección 2.2 (Módulo 3: Foro colaborativo)|
+|Recetas según Síntomas|	Catálogo de opciones nutricionales y platos adaptados a la condición y sintomatología específica del paciente.|	Sección 2.2 (Módulo 4: Recetas)|
+|Consejos de Vida Saludable|	Publicaciones e información de hábitos de salud creadas y difundidas por profesionales sanitarios para orientación de los usuarios.	|Sección 2.2 (Módulo 5: Consejos de vida saludable)|
+|Profesional de la Salud / Nutricionista|	Perfil especializado que genera y transmite pautas médicas, consejos nutricionales y tratamientos a la comunidad.|	Sección 2.2 (Módulo 5) y Sección 3.1 (Stakeholders)|
+|Apartado de Quejas / Entorno Seguro|	Mecanismo o canal de reporte para informar sobre conductas inadecuadas, contenidos inapropiados o vulneraciones en la plataforma.|	Sección 2.2 (Módulo 6: Entorno seguro y quejas)|
+|Apartado de Ayudas	|Sección de soporte orientada a orientar y ayudar a los usuarios en el manejo de las herramientas del sistema.	|Sección 2.2 (Módulo 7: Ayudas)|
+|Coordinador	|Rol encargado de supervisar el uso de la plataforma, gestionar reportes y moderar conductas o contenidos indebidos.	|Sección 3.1 (Stakeholders)|
+|Requisito de Usuario (UR) Candidato|	Expresión formal de una necesidad del cliente redactada bajo la estructura «[actor] necesita poder [acción] para [finalidad]», pendiente de confirmación.|	Sección 2.1 (Alcance incluido) y Sección 2.2 (Módulos funcionales)|
+|Hueco / Ambigüedad (HU)	|Incertidumbre, omisión o falta de detalle identificada en el documento que debe aclararse mediante entrevista con el cliente.	|Sección 3.3 (Condiciones de despliegue) y hoja de trabajo|
 
 ## 10. Modelos de análisis
 
