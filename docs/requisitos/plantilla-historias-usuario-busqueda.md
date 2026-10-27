@@ -15,42 +15,42 @@
 
 ## Épica de búsqueda
 
-Como [rol], quiero [capacidad amplia], para [beneficio].
+Como usuario registrado, quiero filtrar la búsqueda de recetas, para encontrar recetas acordes a las necesidades.
 
 **Estado:** descompuesta en US-01, US-02 y US-03. Conserva la necesidad conjunta.
 
 ## Justificación de la división
 
-[Justificación de los resultados útiles que separa la división.]
+Filtrar la búsqueda es muy amplio.
 
 ## US-01
 
-**Título:** [Capacidad]
+**Título:** Buscar mediante una palabra o frase.
 
-Como [rol], quiero [capacidad], para [beneficio].
+Como usuario registrado, quiero buscar recetas mediante una palabra o frase, para encontrar recetas acordes a mis necesidades.
 
 **Fuentes:** UR-08; UC-21; [FR principal]; acta, [apartado pertinente].
 
 ### Criterios de aceptación
 
-- **CA-01.** Dado [situación], cuando [acción], entonces [resultado observable].
-- **CA-02.** Dado [situación], cuando [acción], entonces [resultado observable].
-- **CA-03.** Dado [situación], cuando [acción], entonces [resultado observable].
+- **CA-01.** Dado un usuario registrado y recetas publicadas y validadas, cuando el usuario realiza una búsqueda mediante unas palabras o una frase y los filtros coincidan con una o más recetas, entonces el sistema debe de mostrar esa o esas recetas.
+- **CA-02.** Dado un usuario registrado y recetas publicadas y validadas, cuando el usuario realiza una búsqueda mediante unas palabras o una frase y los filtros no coincidan con ninguna receta, entonces el sistema debe informar de que no hay recetas que cumplan los criterios.
+- **CA-03.**  Dado un usuario registrado y recetas publicadas y validadas, cuando el usuario realiza una búsqueda mediante unas palabras o una frase, estos no coinciden con ninguna receta y el texto escrito pueda ser corregido ortográficamente, entonces el sistema propone aplicar dicha corrección.
 
 ## US-02
 
-**Título:** [Capacidad]
+**Título:** Buscar por ingredientes incluidos.
 
-Como [rol], quiero [capacidad], para [beneficio].
+Como usuario registrado, quiero filtrar las recetas por ingredientes, para encontrar recetas acordes a mis necesidades.
 
 **Fuentes:** UR-08; UC-21; [FR principal]; acta, [apartado pertinente].
 
 ### Criterios de aceptación
 
-- **CA-01.** Dado [situación], cuando [acción], entonces [resultado observable].
-- **CA-02.** Dado [situación], cuando [acción], entonces [resultado observable].
-- **CA-03.** Dado [situación], cuando [acción], entonces [resultado observable].
-
+- **CA-01.**  Dado un usuario registrado y una receta publicada y validada que contiene los ingredientes de la búsqueda, cuando el usuario selecciona los ingredientes de la búsqueda y la ejecuta, entonces el sistema muestra esa receta en los resultados.
+- **CA-02.**  Dado un usuario registrado y ninguna receta publicada y validada que contenga los ingredientes de la búsqueda, cuando el usuario selecciona los ingredientes de la búsqueda y la ejecuta, entonces el sistema debe informar de que no hay recetas que cumplan los criterios.
+- **CA-03.** Dado un usuario registrado y una receta publicada y validada que no contiene algunos de los ingredientes de la búsqueda, pero otros sí, cuando el usuario selecciona los ingredientes de la búsqueda y la ejecuta, entonces el sistema no debe mostrar dicha receta.
+  
 ## US-03
 
 **Título:** [Capacidad]
